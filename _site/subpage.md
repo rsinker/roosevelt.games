@@ -1,7 +1,7 @@
 ---
 title: This is a subpage
 layout: base
-tags: page
+tags: hidden-page
 modified: 2022-01-09 00:00:00
 order: 2
 ---

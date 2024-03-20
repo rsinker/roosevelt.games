@@ -17,7 +17,6 @@ order: 1
 
 <div class="container max-w-lg mx-auto text-xl text-center">
 	<p> Connect with me on <a href="https://linkedin.com/in/sinker" target="_blank">Linkedin</a>
-	<p class="pt-3"><a href="https://github.com/jeremydaly/eleventy-tailwind-template#readme" class="text-2xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">View the README</a></p>
 </div>
 
 {% include "navigation.njk" %}
