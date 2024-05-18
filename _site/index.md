@@ -6,17 +6,7 @@ modified: 2022-01-09 00:00:00
 order: 1
 ---
 
-<h1 class="pt-24 pb-6 text-center">
-	<span class="text-8xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-		Roosevelt
-	</span>
-</h1>
-<h2 class="pb-12 text-4xl font-bold text-center text-gray-500">
-	Video Game Programmer
-</h2>
-
-<div class="container max-w-lg mx-auto text-xl text-center">
-	<p> Connect with me on <a href="https://linkedin.com/in/sinker" target="_blank">Linkedin</a>
+<div class="">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor sollicitudin laoreet. Nulla eget pulvinar felis. Donec rhoncus velit vel viverra euismod. Praesent et finibus metus. Curabitur nec venenatis lorem, sollicitudin congue ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi bibendum placerat leo, ac finibus turpis. Suspendisse molestie, neque eget sagittis consequat, mauris nisl viverra metus, in pulvinar ex justo commodo augue. Suspendisse ligula arcu, cursus sit amet erat vel, hendrerit commodo tellus. Cras tincidunt condimentum ante quis pharetra. Aliquam placerat mattis sapien a euismod. Ut erat risus, sagittis a placerat vel, congue tristique eros.
 </div>
 
-{% include "navigation.njk" %}
