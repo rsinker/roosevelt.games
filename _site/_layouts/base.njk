@@ -1,14 +1,22 @@
 <!doctype html>
 <html lang="en" dir="ltr">
   <head>    
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+
     <link rel="canonical" href="{{ config.url }}{{ page.url }}">
     <link rel="stylesheet" href="/css/styles.css" />
-    <script src="https://kit.fontawesome.com/9e44ba9da7.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/9e44ba9da7.js" crossorigin="anonymous"></script> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>{% if title and title != 'Home' %}{{title}} - {% endif %}{{ config.siteTitle }}</title>
 
   </head>
-  <body>
+  <body class = "bg-slate-200">
     <header>
       {% include 'header.njk' %}
     </header> 
@@ -16,14 +24,14 @@
 			{{ content | safe }}
     </div>
 		
-    <footer class="mt-0 text-center text-base text-gray-500">
+    <footer class="mt-0 text-center text-base text-gray-500 mb-12 float-none">
       <div class="">
-        <i class="fa-brands fa-linkedin fa-4x"></i>
-        <i class="fa-brands fa-itch-io fa-4x"></i>
-        <i class="fa-brands fa-square-github fa-4x"></i>
+        <a href = "https://linkedin.com/in/sinker"> <i class="fa-brands fa-linkedin fa-4x hover:text-blue-600 mx-1"></i> </a>
+        <a href = "https://chairshotgames.itch.io/"> <i class="fa-brands fa-itch-io fa-4x hover:text-red-400 mx-1"></i> </a>
+        <a href = "https://github.com/rsinker"> <i class="fa-brands fa-square-github fa-4x hover:text-violet-800 mx-1"></i> </a>
       </div>
-      <p>&copy; {{ '' | year }} - <a href="{{ config.url }}">{{ config.siteTitle }}</a></p>
-			<p class="pt-1 text-sm">Made with a template by <a href="https://github.com/jeremydaly/eleventy-tailwind-template" target="_blank" class="text-pink-500">Jeremy Daly</a></p>
+      <p class = "mt-4">&copy; {{ '' | year }} - {{ config.author }}</p>
+      <p class = ""> This website is <a href = "https://github.com/rsinker/roosevelt.games" class="underline hover:text-violet-800">open source</a></p>
     </footer>
   </body>
 </html>

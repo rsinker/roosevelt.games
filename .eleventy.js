@@ -1,6 +1,9 @@
 const dayjs = require("dayjs");
+const yaml = require("js-yaml");
 
 module.exports = function (config) {
+  config.addDataExtension("yaml", (contents) => yaml.load(contents));
+
   // Pass-through images
   config.addPassthroughCopy("./_site/images");
 
