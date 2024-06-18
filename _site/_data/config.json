@@ -1,9 +1,7 @@
 {
   "siteTitle": "roosevelt.games",
   "url": "https://roosevelt.games",
-  "description": "This is a default template for Eleventy with TailwindCSS",
-  "keywords": "eleventy, 11ty, tailwind, tailwindcss, css, ssg",
-  "image": "https://www.11ty.dev/img/built/IdthKOzqFA-350.avif",
-  "twitter": "@jeremy_daly",
+  "author": "Roosevelt Sinker",
+  "description": "Roosevelt portfolio placeholder",
   "card": "summary"
 }

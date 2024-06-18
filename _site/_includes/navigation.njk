@@ -1,9 +1,7 @@
-<ul class="text-center py-10 text-lg">
+<ul class="text-center text-lg">
 	{%- for item in collections.pages -%}
-		{% if page.url != item.url %}
-		<li>
-			<a href="{{ item.url }}">{{ item.data.title }}</a>
+		<li class="inline-block">
+			<a class="p-2 mx-1 md:mx-5 hover:underline noto-sans" href="{{ item.url }}">{{ item.data.title }}</a>
 		</li>
-		{% endif %}
 	{%- endfor -%}
 </ul>
