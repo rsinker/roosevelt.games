@@ -8,6 +8,7 @@ role: Game Designer
 link:
 link-text:
 timeframe: June 2024 - Present
+date: 2024-01-02
 ---
 <div class = "textspace mt-8">
 <p class = "">Donuts! is an upcoming arcade racing and skateboarding game. A tribute to the Dreamcast-era arcade classics like Crazy Taxi and Tony Hawk Pro Skater, Donuts! has players making donuts by performing tricks and then racing to deliver them as quickly as they can.</p>

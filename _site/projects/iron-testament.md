@@ -10,6 +10,7 @@ link:
 link-text:
 timeframe: April 2024 - Present
 featured: y
+date: 2024-01-01
 ---
 <div class = "textspace mt-8">
 <p class = ""> Iron Testament is an upcoming turn-based strategy game that takes place in a post-apocolyptic future. You play as the last human left on Earth after a robot uprising, and leading a fringe sect of life-worshiping robots, you must take back the planet for the Children of Flesh. </p>

@@ -8,6 +8,7 @@ role: UI Engineer & Programmer
 link: https://rat-economy.itch.io/ratpack
 link-text: Itch.io Page
 timeframe: Febuary - March 2024
+date: 2024-01-03
 ---
 <div class = "textspace mt-8">
 <p class = ""> Rat Pack is a two-player fighting game starring two of the founding members of Rat Economy, my 19 person game studio. It was created in a month as a birthday present for the two of them, and to practice our team workflow before Iron Testament development kicked off.</p>

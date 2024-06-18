@@ -9,7 +9,7 @@ order: 3
 <p class = "title">Game Projects</p>
 </div>
 <div class = "grid grid-cols-1 md:grid-cols-2 gap-4">
-{% for project in collections.projects | reverse %}
+{% for project in collections.projects %}
 
 <a href = "{{project.url}}">
 <div class = "hover:bg-stone-100 p-4 rounded-xl">
