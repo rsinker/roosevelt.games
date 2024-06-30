@@ -11,7 +11,7 @@ order: 1
 Hey there, I'm Roosevelt!
 </h1>
 <div class="text-xl md:text-2xl">
-	<p class = "mb-8">I am a programmer, game designer, and tools engineer with a passion for creating innovative gameplay experiences. I belive in gameplay-first design and building teams that bring together diverse skillsets to make exceptional games.</p>
+	<p class = "mb-8">I am a programmer, game designer, and tools engineer with a passion for creating innovative gameplay experiences. I believe in gameplay-first design and building teams that bring together diverse skillsets to make exceptional games.</p>
 	<a href = "mailto:hey@roosevelt.games" class = "highlight underline"> Let's build something better, together</a>
 </div>
 
