@@ -19,7 +19,7 @@ About me
     I primarily work with gameplay and tools programming, but am also experienced in level and systems design. I believe in gameplay-first design and am interested in facilitating collaboration between programmers and designers to develop tools and workflows that work for everyone.
     </p>
     <p class="">
-    Now I am a co-founder and programming lead at <a href = "https://rat-economy.com/" class = "highlight underline hover:text-red-800">Rat Economy</a>, a 19 person game studio at USC. We are currently working on our first game: <a href = "/projects/iron-testament" class = "highlight underline">Iron Testement</a> for a Spring 2024 release.
+    Now I am a co-founder and programming lead at <a href = "https://rat-economy.com/" class = "highlight underline hover:text-red-800">Rat Economy</a>, a 19 person game studio at USC. We are currently working on our first game: <a href = "/projects/iron-testament" class = "highlight underline">Iron Testament</a> for a Spring 2024 release.
     </p>
     </div>
 </div>
