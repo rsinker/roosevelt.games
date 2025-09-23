@@ -37,8 +37,8 @@ Hey there, I'm Roosevelt!
 {% endif %}
 {% endfor %}
 
-<h1 class = "title text-center sm:text-left mx-6 mt-24"> Work Experience </h1>
-<div class = "mt-4 bg-slate-50 rounded-2xl border border-gray-400 border-2 md:pb-8 py-4 md:py-2">
+<h1 class = "title text-center sm:text-left mx-6 mt-24">Featured Work Experience </h1>
+<div class = "my-4 bg-slate-50 rounded-2xl border border-gray-400 border-2 md:pb-8 py-4 md:py-2">
 <h2 class = "hidden md:block title text-4xl mx-6"> <a href = "https://rawthrills.com" class = "highlight underline" target="_blank">Raw Thrills</a> | Programming & Design Intern</h2>
 <h2 class = "md:hidden text-center title !text-4xl mx-6 !my-2"><a href = "https://rawthrills.com" class = "highlight underline" target="_blank">Raw Thrills</a></h2>
 <h2 class = "md:hidden text-center title !text-2xl mx-2 !my-2">Programming & Design Intern</h2>
@@ -53,6 +53,7 @@ Hey there, I'm Roosevelt!
 	<li><span class="highlight">Feedback</span>: Gave weekly presentations to Eugene Jarvis, taking his feedback on how I was executing his original vision and making necessary adjustments to the game.</li>
 </ul>
 </div>
+<a href = "https://linkedin.com/in/sinker" class = "highlight underline text-xl md:text-2xl">For my full resume, visit my LinkedIn</a>
 
 {# 
 <h1 class = "title text-center sm:text-left"> Lastest Blog Post </h1>
