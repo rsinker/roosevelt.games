@@ -2,39 +2,46 @@ const dayjs = require("dayjs");
 const yaml = require("js-yaml");
 
 module.exports = function (config) {
-  config.addDataExtension("yaml", (contents) => yaml.load(contents));
+    config.addDataExtension("yaml", (contents) => yaml.load(contents));
 
-  // Pass-through images
-  config.addPassthroughCopy("./_site/images");
+    // Pass-through images
+    config.addPassthroughCopy("./_site/images");
 
-  // Add Date filters
-  config.addFilter("date", (dateObj) => {
-    return dayjs(dateObj).format("MMMM D, YYYY");
-  });
-
-  config.addFilter("sitemapDate", (dateObj) => {
-    return dayjs(dateObj).toISOString();
-  });
-
-  config.addFilter("year", () => {
-    return dayjs().format("YYYY");
-  });
-
-  // Add pages collection
-  config.addCollection("pages", function (collections) {
-    return collections.getFilteredByTag("page").sort(function (a, b) {
-      return a.data.order - b.data.order;
+    // Add Date filters
+    config.addFilter("date", (dateObj) => {
+        return dayjs(dateObj).format("MMMM D, YYYY");
     });
-  });
 
-  return {
-    markdownTemplateEngine: "njk",
-    dir: {
-      input: "_site",
-      data: "_data",
-      includes: "_includes",
-      layouts: "_layouts",
-      output: "dist",
-    },
-  };
+    config.addFilter("sitemapDate", (dateObj) => {
+        return dayjs(dateObj).toISOString();
+    });
+
+    config.addFilter("year", () => {
+        return dayjs().format("YYYY");
+    });
+
+    // Add pages collection
+    config.addCollection("pages", function (collections) {
+        return collections.getFilteredByTag("page").sort(function (a, b) {
+            return a.data.order - b.data.order;
+        });
+    });
+
+    config.addCollection("projects", function (collectionApi) {
+        const projects = collectionApi.getFilteredByTag("projects").sort((a, b) => {
+            return (a.data.order || 0) - (b.data.order || 0);
+        });
+        return projects;
+    });
+
+    return {
+        markdownTemplateEngine: "njk",
+        dir: {
+            input: "_site",
+            data: "_data",
+            includes: "_includes",
+            layouts: "_layouts",
+            output: "dist",
+        },
+    };
 };

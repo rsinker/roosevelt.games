@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\_site",
-    "\\_site\\_includes"
+    "\\_site\\css",
+    "\\_site\\projects",
+    "\\_site\\_data",
+    "\\_site\\_includes",
+    "\\_site\\_layouts"
   ],
-  "SelectedNode": "\\_site\\index.md",
+  "SelectedNode": "\\_site\\contact.md",
   "PreviewInSolutionExplorer": false
 }
