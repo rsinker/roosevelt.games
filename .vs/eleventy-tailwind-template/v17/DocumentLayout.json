@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_site\\about.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\roose\\Code\\personal-projects\\website\\eleventy-tailwind-template\\_site\\projects\\hypertram.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_site\\projects\\hypertram.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\roose\\Code\\personal-projects\\website\\eleventy-tailwind-template\\_site\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_site\\index.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\roose\\Code\\personal-projects\\website\\eleventy-tailwind-template\\_site\\_layouts\\project.njk||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_site\\_layouts\\project.njk||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\roose\\Code\\personal-projects\\website\\eleventy-tailwind-template\\_site\\projects\\hypertram.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:_site\\projects\\hypertram.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\roose\\Code\\personal-projects\\website\\eleventy-tailwind-template\\_site\\projects\\iron-testament.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "contact.md",
               "DocumentMoniker": "C:\\Users\\roose\\Code\\personal-projects\\website\\eleventy-tailwind-template\\_site\\contact.md",
               "RelativeDocumentMoniker": "_site\\contact.md",
@@ -110,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "project.njk",
               "DocumentMoniker": "C:\\Users\\roose\\Code\\personal-projects\\website\\eleventy-tailwind-template\\_site\\_layouts\\project.njk",
               "RelativeDocumentMoniker": "_site\\_layouts\\project.njk",
@@ -134,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "base.njk",
               "DocumentMoniker": "C:\\Users\\roose\\Code\\personal-projects\\website\\eleventy-tailwind-template\\_site\\_layouts\\base.njk",
               "RelativeDocumentMoniker": "_site\\_layouts\\base.njk",
@@ -142,8 +142,7 @@
               "RelativeToolTip": "_site\\_layouts\\base.njk",
               "ViewState": "AgIAACQAAAAAAAAAAAAAACkAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-09-05T23:15:44.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-05T23:15:44.496Z"
             },
             {
               "$type": "Document",
@@ -153,14 +152,14 @@
               "RelativeDocumentMoniker": "_site\\about.md",
               "ToolTip": "C:\\Users\\roose\\Code\\personal-projects\\website\\eleventy-tailwind-template\\_site\\about.md",
               "RelativeToolTip": "_site\\about.md",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAADQAQAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABXAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-09-05T22:50:33.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "index.md",
               "DocumentMoniker": "C:\\Users\\roose\\Code\\personal-projects\\website\\eleventy-tailwind-template\\_site\\index.md",
               "RelativeDocumentMoniker": "_site\\index.md",
@@ -168,20 +167,20 @@
               "RelativeToolTip": "_site\\index.md",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAADcAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-05-18T02:03:17.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T02:03:17.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "hypertram.md",
               "DocumentMoniker": "C:\\Users\\roose\\Code\\personal-projects\\website\\eleventy-tailwind-template\\_site\\projects\\hypertram.md",
               "RelativeDocumentMoniker": "_site\\projects\\hypertram.md",
               "ToolTip": "C:\\Users\\roose\\Code\\personal-projects\\website\\eleventy-tailwind-template\\_site\\projects\\hypertram.md",
               "RelativeToolTip": "_site\\projects\\hypertram.md",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-09-05T21:57:05.685Z"
+              "WhenOpened": "2025-09-05T21:57:05.685Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -209,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "projects.njk",
               "DocumentMoniker": "C:\\Users\\roose\\Code\\personal-projects\\website\\eleventy-tailwind-template\\_site\\projects.njk",
               "RelativeDocumentMoniker": "_site\\projects.njk",

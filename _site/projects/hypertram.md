@@ -12,7 +12,7 @@ order: 1
 featured: false
 ---
 <div class = "textspace mt-8">
-<p class = "">Hypertram 4000: World Tour is an alt-control tram arcade game created for the 2025 Indie City All Stars game jam. Inspired by H2Overdrive and Densha de Go this game creates a time-attack style arcade experience in its three game modes: Precice Stop, Street Crossing, and Bowling!</p>
+<p class = "">Hypertram 4000: World Tour is an alt-control tram arcade game created for the 2025 Indie City All Stars game jam. Inspired by H2Overdrive and Densha de Go this game creates a time-attack style arcade experience in its three game modes: Precise Stop, Street Crossing, and Bowling!</p>
 <p class = "">Hypertram 4000: World Tour was selected by judges as a finalist. It was shown at <a href="https://youtu.be/tM9gXB27pJ4?si=-NnXwLwkIOwAzm7X&t=37" class="highlight underline">Indie City Games' July showcase</a> in Chicago where it was played by over a hundred attendees.</p>
 </div>
 
